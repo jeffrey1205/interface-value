@@ -1,4 +1,4 @@
-package interface_value
+package interfacevalue
 
 import (
 	"fmt"

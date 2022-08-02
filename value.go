@@ -1,4 +1,4 @@
-package interface_value
+package interfacevalue
 
 // 将interface{}转换为int，如果转换失败返回默认值
 func Int(raw interface{}, val int) int {
