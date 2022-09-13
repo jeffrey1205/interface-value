@@ -4,6 +4,8 @@ package interfacevalue
 func Int(raw interface{}, val int) int {
 	if raw != nil {
 		switch raw.(type) {
+		case float64:
+			return int(raw.(float64))
 		case int:
 			return raw.(int)
 		case int32:
